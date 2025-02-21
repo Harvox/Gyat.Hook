@@ -2351,7 +2351,7 @@ Bracket.Elements = {
 	Screen = function()
 		local ScreenAsset = Bracket.Assets:Screen()
 
-		ScreenAsset.Name = "Bracket " .. game:GetService("HttpService"):GenerateGUID(false)
+		ScreenAsset.Name = "Gyat.Hook"
 		ScreenAsset.Parent = Bracket.IsLocal and LocalPlayer:FindFirstChildOfClass("PlayerGui") or CoreGui
 
 		return ScreenAsset
