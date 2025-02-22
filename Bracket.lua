@@ -687,7 +687,7 @@ Bracket.Assets = {
 		Label.RichText = true
 		Label.TextColor3 = Color3.fromRGB(191, 191, 191)
 		-- Label.TextYAlignment = Enum.TextYAlignment.Top
-		Label.Text = "Gyat.Hook"
+		Label.Text = "Packet.Hook"
 		Label.FontFace = Font.fromEnum(Enum.Font.SourceSansSemibold)
 		Label.TextXAlignment = Enum.TextXAlignment.Right
 		Label.Parent = Topbar
@@ -2351,7 +2351,7 @@ Bracket.Elements = {
 	Screen = function()
 		local ScreenAsset = Bracket.Assets:Screen()
 
-		ScreenAsset.Name = "Gyat.Hook"
+		ScreenAsset.Name = "Pack.Hook"
 		ScreenAsset.Parent = CoreGui
 
 		return ScreenAsset
