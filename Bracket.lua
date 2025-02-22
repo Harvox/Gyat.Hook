@@ -3101,7 +3101,7 @@ Bracket.Elements = {
 
 		local function AttachToMouse(Input)
 			local ScaleX = math.clamp((Input.Position.X - SliderAsset.Background.AbsolutePosition.X) / SliderAsset.Background.AbsoluteSize.X, 0, 1)
-			Slider.Value = Bracket.Utilities.Scale(ScaleX, 0, 1, Slider.Min, Slider.Max)
+			Slider.Value = Bracket.Utilities.Scale(ScaleX, 0, 0.1, Slider.Min, Slider.Max)
 		end
 
 		if Slider.Slim then
