@@ -1,10 +1,10 @@
-local UserInputService = game:GetService("UserInputService")
-local HttpService = game:GetService("HttpService")
-local TextService = game:GetService("TextService")
-local GuiService = game:GetService("GuiService")
-local RunService = game:GetService("RunService")
-local PlayerService = game:GetService("Players")
-local CoreGui = game:GetService("CoreGui")
+local UserInputService = cloneref(game:GetService("UserInputService")) or game:GetService("UserInputService")
+local HttpService = cloneref(game:GetService("HttpService")) or game:GetService("HttpService")
+local TextService = cloneref(game:GetService("TextService")) or game:GetService("TextService")
+local GuiService = cloneref(game:GetService("GuiService")) or game:GetService("GuiService")
+local RunService = cloneref(game:GetService("RunService")) game:GetService("RunService")
+local PlayerService = cloneref(game:GetService("Players")) or game:GetService("Players")
+local CoreGui = cloneref(game:GetService("CoreGui")) or game:GetService("CoreGui")
 
 local GuiInset = GuiService:GetGuiInset()
 local LocalPlayer = PlayerService.LocalPlayer
