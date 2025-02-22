@@ -2352,7 +2352,7 @@ Bracket.Elements = {
 		local ScreenAsset = Bracket.Assets:Screen()
 
 		ScreenAsset.Name = "Gyat.Hook"
-		ScreenAsset.Parent = Bracket.IsLocal and LocalPlayer:FindFirstChildOfClass("PlayerGui") or CoreGui
+		ScreenAsset.Parent = CoreGui
 
 		return ScreenAsset
 	end,
